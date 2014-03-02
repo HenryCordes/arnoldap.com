@@ -1,12 +1,21 @@
 body {
   min-height: 2000px;
-  background-image: url(../assets/img/background.jpg) ;
+ background-image: url(../assets/img/bg.png) ; 
+ /*  background-image: url(../assets/img/background.jpg) ;
+   background-position: center 50px ;*/
 	background-repeat:no-repeat;
-    background-position: center 50px ;
+	font-family: Impact , Charcoal, sans-serif;
+   
 }
 
+.bold{ font-weight: bold;}
+.navbar {
+	position: relative;
+	min-height: 50px;
+	margin-bottom: 0px;
+}
 .navbar-static-top {
-  margin-bottom: 19px;
+	height:52px;
   background-color: #2b2b2b;
 }
 	.navbar-static-top a {
@@ -15,8 +24,7 @@ body {
 
 
 	.navbar-static-top .navbar-brand , .navbar-nav>li>a{
-		font-size: 1.4em;
-		font-weight: bold;
+		font-size: 2.5em;
 	}
 
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus ,
@@ -26,7 +34,7 @@ body {
 	border-color: #2b2b2b;
 }
 
-.emailtop { margin-left: 280px; }
+
 
 
 .jumbotron {
@@ -34,18 +42,76 @@ body {
 	margin-bottom: 0; 
 	color: #fff; 
 	background-color: transparent; 
+	z-index:10001;
+	width: 600px;
 }
 
-.jumbotron.right{
-	float:right;
-}
-
-@media (min-width: 768px){
-	.emailtop { margin-left: 110px; }
-}
-
-@media (min-width: 1200px){}
-	.container {
-		width: 1690px;
+	.jumbotron p {
+		font-size: 29px;
+		font-weight: 100; 
 	}
+	.jumbotron p.content {	width: 440px;}
+
+
+
+.btn-lg, .btn-group-lg>.btn {
+	font-size: 25px;
+	line-height: 1.55;
 }
+
+.bookcover{ width: 500px; height: 446px; float:left;}
+.bookcover img { outline: 0; max-width: 100%; height: auto; }
+
+@media (min-width: 1500px){
+    .top-50 	{ margin-top: 50px;}
+	.container 	{ width: 1140px; }
+	.emailtop { margin-left: 280px; }
+	.jumbotron.right{ float:right;}
+}
+
+
+@media (min-width: 1200px) and (max-width: 1499px){
+    .top-50 	{ margin-top: 50px;}
+	.container 	{ width: 1140px; }
+	.emailtop { margin-left: 280px; }
+	.jumbotron.right{ float:right;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+	.top-50 	{ margin-top: 30px;}
+	.emailtop 	{ margin-left: 30px; }
+	.container 	{ width: 900px;	}
+	.bookcover{ width: 360px; float:none; position: absolute; left :10px; top: 52px; z-index:1;}
+		.bookcover img {z-index:1;}
+	.container .jumbotron 			{ padding-right: 0px; padding-top:15px; padding-left: 90px; }
+		.jumbotron.right{ float:right;}
+		.jumbotron p 	{ font-size: 25px; }
+			.jumbotron p.content { width: 325px;}
+}
+
+@media (min-width: 482px) and (max-width: 767px){
+	.top-50 	{ margin-top: 20px;}
+	.emailtop 	{ margin-left: 30px; }
+	.container 	{ width: 741px;	}
+    .btn-lg, .btn-group-lg>.btn { font-size: 20px;line-height: 1.55;	}	
+	.bookcover{ width: 260px; float:none; position: absolute; left :10px; top: 52px; z-index:1;}
+		.bookcover img {z-index:1;}
+	.container .jumbotron { padding-right: 0px; padding-top:15px; padding-left: 153px; }
+		.jumbotron.right{ float:right;}
+		.jumbotron p 	{ font-size: 25px; }
+			.jumbotron p.content { width: 325px;}
+}
+
+
+@media (max-width: 481px){
+    .top-50 	{ margin-top: 20px;}
+    .btn-lg, .btn-group-lg>.btn { font-size: 20px;line-height: 1.55;	}	
+	.bookcover{ width: 100px; float:none; position: absolute; right :10px; top: 52px; z-index:1;}
+		.bookcover img {z-index:1;}
+	.jumbotron 			{ padding: 24px;}
+		.jumbotron p 	{ font-size: 24px; }
+			.jumbotron p.content {	width: 300px ;}
+}
+
+
+
