@@ -115,7 +115,7 @@ body {
 	.jumbotron 			{ padding: 2px; width: 95%;}
 		.jumbotron p 	{ font-size: 15px; }
 			.jumbotron p.content {	width: 98% ;}
-		.jumbotron h1, .jumbotron .h1 { font-size: 30px; margin-top: 5px; width:100%; text-align: center;}
+		.jumbotron h1, .jumbotron .h1 { font-size: 25px; font-weight: bold; margin-top: 5px; width:100%; text-align: center;}
 	.navbar-static-top .navbar-brand, .navbar-nav>li>a {font-size: 1.5em; }
 	.navbar-brand { width: 100%; text-align:center;}
 }
