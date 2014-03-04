@@ -101,7 +101,7 @@ body {
 		.jumbotron.right{ float:right;}
 		.jumbotron p 	{ font-size: 19px; }
 			.jumbotron p.content { width: 315px;}
-		.jumbotron h1, .jumbotron .h1 { font-size: 45px;}
+		.jumbotron h1, .jumbotron .h1 { font-size: 45px;margin-top: 10px;}
 
 	.navbar-static-top .navbar-brand, .navbar-nav>li>a {font-size: 1.7em; }
 	
@@ -113,10 +113,10 @@ body {
     .btn-lg, .btn-group-lg>.btn { font-size: 20px;line-height: 1.55;	}	
 	.bookcover{ width: 200px; float:none; position: relative; margin-left: auto; margin-right: auto; z-index:1;}
 		.bookcover img {z-index:1;}
-	.jumbotron 			{ padding: 7px; width: 95%;}
+	.jumbotron 			{ padding: 5px; width: 95%;}
 		.jumbotron p 	{ font-size: 15px; }
 			.jumbotron p.content {	width: 98% ;}
-		.jumbotron h1, .jumbotron .h1 { font-size: 34px;}
+		.jumbotron h1, .jumbotron .h1 { font-size: 34px; margin-top: 5px;}
 	.navbar-static-top .navbar-brand, .navbar-nav>li>a {font-size: 1.5em; }
 	.navbar-brand { width: 100%; text-align:center;}
 }
