@@ -107,11 +107,12 @@ body {
 }
 
 @media (max-width: 620px){
+	.container { padding-left: 4px; padding-right: 4px;}
     .top-50 	{ margin-top: 14px;}
     .btn-lg, .btn-group-lg>.btn { font-size: 18px;line-height: 1.55;	}	
 	.bookcover{ width: 200px; float:none; position: relative; margin-left: auto; margin-right: auto; z-index:1;}
 		.bookcover img {z-index:1;}
-	.jumbotron 			{ padding: 5px; width: 95%;}
+	.jumbotron 			{ padding: 2px; width: 95%;}
 		.jumbotron p 	{ font-size: 15px; }
 			.jumbotron p.content {	width: 98% ;}
 		.jumbotron h1, .jumbotron .h1 { font-size: 30px; margin-top: 5px; width:100%; text-align: center;}
