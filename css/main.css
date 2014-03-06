@@ -61,28 +61,40 @@ body {
 
 .bookcover{ width: 500px; height: 446px; float:left;}
 .bookcover img { outline: 0; max-width: 100%; height: auto; }
+#cover {display: block;}
+#cover-top {display: none;}
 
-#image-container  { position: relative; top: 263px; margin-left: auto; margin-right:auto; width:1900px;}
+#image-container  { position: relative; top: 199px; 
+					margin-left: auto;
+					margin-right: auto;
+					position: relative;
+					z-index: 1000;
+				    text-align:center;
+				}
+#image-container  ul li { display:inline-block; margin: 0; }
 .images{ position: relative;}
-.images img { margin-right: 20px;}
-img.family {float:right; margin-top:-410px;}
+.images img { margin-right: 20px; margin-bottom: 10px;}
+/*img.family {float:right; margin-top:-410px;} */
 
-@media (min-width: 1500px){
-    .top-50 	{ margin-top: 50px;}
-	.container 	{ width: 1140px; }
-	.emailtop { margin-left: 280px; }
-	.jumbotron.right{ float:right;}
+.top-50 	{ margin-top: 50px;}
+.container 	{ width: 1140px; }
+.emailtop { margin-left: 200px; }
+.jumbotron.right{ float:right;}
+
+@media (min-width: 1442px) and (max-width: 1983px){
+    #image-container  { position: relative; top: 263px; }
 }
 
-
-@media (min-width: 1200px) and (max-width: 1499px){
-    .top-50 	{ margin-top: 50px;}
-	.container 	{ width: 1140px; }
-	.emailtop { margin-left: 280px; }
-	.jumbotron.right{ float:right;}
+@media (min-width: 1200px) and (max-width: 1441px){
+	body { background-image: url(../assets/img/bg_1400.jpg) ; }
+	#image-container { top: 15px;}
+	#cover {display: none;}
+	#cover-top {display: block;}
 }
+
 
 @media screen and (min-width: 891px) and (max-width: 1199px){
+	body { background-image: url(../assets/img/bg_800.jpg) ; }
 	.top-50 	{ margin-top: 30px;}
 	.emailtop 	{ margin-left: 30px; }
 	.container 	{ width: 900px;	}
@@ -93,9 +105,11 @@ img.family {float:right; margin-top:-410px;}
 		.jumbotron p 	{ font-size: 22px; }
 			.jumbotron p.content { width: 325px;}
 	.navbar-static-top .navbar-brand, .navbar-nav>li>a {font-size: 2em; }
+	#image-container { top: 15px;}
 }
 
 @media (min-width: 621px) and (max-width: 890px){
+	body { background-image: url(../assets/img/bg_800.jpg) ; }
 	.top-50 	{ margin-top: 20px;}
 	.emailtop 	{ margin-left: 30px; }
 	.container 	{ width: 741px;	}
@@ -109,10 +123,14 @@ img.family {float:right; margin-top:-410px;}
 		.jumbotron h1, .jumbotron .h1 { font-size: 45px;margin-top: 10px;}
 
 	.navbar-static-top .navbar-brand, .navbar-nav>li>a {font-size: 1.7em; }	
+	#image-container { top: 55px;}
+	ul.images { padding: 0;}
+	.images img { margin-right: 0; width: 80%; height: 80%;}
 }
 
 @media (max-width: 620px){
-	.container { padding-left: 4px; padding-right: 4px;}
+	body { background-image: url(../assets/img/bg_800.jpg) ; }
+	.container { padding-left: 4px; padding-right: 4px; width:auto;}
     .top-50 	{ margin-top: 14px;}
     .btn-lg, .btn-group-lg>.btn { font-size: 18px;line-height: 1.55;	}	
 	.bookcover{ width: 200px; float:none; position: relative; margin-left: auto; margin-right: auto; z-index:1;}
@@ -123,6 +141,9 @@ img.family {float:right; margin-top:-410px;}
 		.jumbotron h1, .jumbotron .h1 { font-size: 25px; font-weight: bold; margin-top: 5px; width:100%; text-align: center;}
 	.navbar-static-top .navbar-brand, .navbar-nav>li>a {font-size: 1.5em; }
 	.navbar-brand { width: 100%; text-align:center;}
+	#image-container { top: 78px;}
+	ul.images { padding: 0;}
+	.images img { margin-right: 0; width: 70%; height: 70%;}
 }
 
 
