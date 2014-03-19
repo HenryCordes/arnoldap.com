@@ -44,7 +44,7 @@ body {
 }
 
 	.jumbotron p {
-		font-size: 29px;
+		font-size: 26px;
 		font-weight: 100; 
 	}
 	.jumbotron p.content {	width: 440px;}
@@ -80,6 +80,9 @@ body {
 
 @media (min-width: 1442px) and (max-width: 1983px){
     #image-container  { position: relative; top: 263px; }
+    .jumbotron h1, .jumbotron .h1 {
+		font-size: 58px;
+	}
 }
 
 @media (min-width: 1200px) and (max-width: 1441px){
@@ -87,6 +90,9 @@ body {
 	#image-container { top: 15px;}
 	#cover {display: none;}
 	#cover-top {display: block;}
+	.jumbotron h1, .jumbotron .h1 {
+		font-size: 58px;
+	}
 }
 
 
@@ -101,6 +107,9 @@ body {
 		.jumbotron.right{ float:right;}
 		.jumbotron p 	{ font-size: 22px; }
 			.jumbotron p.content { width: 325px;}
+			.jumbotron h1, .jumbotron .h1 {
+				font-size: 50px;
+			}
 	.navbar-static-top .navbar-brand, .navbar-nav>li>a {font-size: 2em; }
 	#image-container { top: 15px;}
 }
