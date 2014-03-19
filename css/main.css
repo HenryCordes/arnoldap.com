@@ -83,6 +83,7 @@ body {
     .jumbotron h1, .jumbotron .h1 {
 		font-size: 58px;
 	}
+	.images img { margin-right: 0; width: 93%; height: 93%;}
 }
 
 @media (min-width: 1200px) and (max-width: 1441px){
@@ -93,6 +94,7 @@ body {
 	.jumbotron h1, .jumbotron .h1 {
 		font-size: 58px;
 	}
+	.images img { margin-right: 0; width: 90%; height: 90%;}
 }
 
 
@@ -112,6 +114,7 @@ body {
 			}
 	.navbar-static-top .navbar-brand, .navbar-nav>li>a {font-size: 2em; }
 	#image-container { top: 15px;}
+	.images img { margin-right: 0; width: 85%; height: 85%;}
 }
 
 @media (min-width: 621px) and (max-width: 890px){
