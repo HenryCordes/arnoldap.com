@@ -79,7 +79,7 @@ body {
 .jumbotron.right{ float:right;}
 
 @media (min-width: 1442px) and (max-width: 1983px){
-    #image-container  { position: relative; top: 263px; }
+    #image-container  { position: relative;  top: 158px;; }
     .jumbotron h1, .jumbotron .h1 {
 		font-size: 58px;
 	}
@@ -88,7 +88,7 @@ body {
 
 @media (min-width: 1200px) and (max-width: 1441px){
 	body { background-image: url(../assets/img/bg_1400.jpg) ; }
-	#image-container { top: 15px;}
+	#image-container { top: -26px;}
 	#cover {display: none;}
 	#cover-top {display: block;}
 	.jumbotron h1, .jumbotron .h1 {
