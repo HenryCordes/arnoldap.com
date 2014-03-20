@@ -44,7 +44,7 @@
         <div class="navbar-collapse collapse">
 
         <ul class="nav navbar-nav emailtop">
-         <li><a href="mailto:info@arnoldap.com">info@arnoldap.com</a>
+         <li><a href="mailto:arnoldap@gmail.com">info@arnoldap.com</a>
          </li>
          </ul>
           <ul class="nav navbar-nav navbar-right">
